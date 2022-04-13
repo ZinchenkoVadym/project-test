@@ -1,0 +1,14 @@
+.user__profile {
+  max-width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.user__profile .user__card {
+  width: 400px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=userProfile.css.map */

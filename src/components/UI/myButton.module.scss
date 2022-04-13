@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.Custom__btn {
+  font-family: 'Nunito', sans-serif;
+  min-width: 100px;
+  height: 34px;
+  padding: 4px 24px;
+  font-size: 16px;
+  border-radius: 80px;
+  border: none;
+  background-color: #F4E041;
+  transition: 0.3s;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.87);
+
+  &:not([disabled]):hover {
+    transition: 0.3s;
+    background-color: #FFE302;
+  }
+}
+
+.Disable {
+  background-color: #B4B4B4;
+  color: white;
+}

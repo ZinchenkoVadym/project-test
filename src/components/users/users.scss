@@ -1,0 +1,49 @@
+.users__section {
+  text-align: center;
+  background: #E5E5E5;
+
+  .users__container {
+
+    .show-btn__container {
+      padding-top: 50px;
+    }
+
+    .users__title {
+      margin: 0 auto;
+      padding: 140px 0 50px 0;
+    }
+
+    .users__cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-column-gap: 29px;
+      grid-row-gap: 29px;
+      justify-items: center;
+      max-width: 904px;
+      margin: 0 auto;
+
+      div {
+        color: rgba(0, 0, 0, 0.87);
+      }
+
+      @media (max-width: 1024px) {
+        max-width: 704px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 16px;
+        grid-row-gap: 16px;
+      }
+
+      @media (max-width: 768px) {
+        max-width: 328px;
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+      }
+    }
+  }
+
+  .loader {
+    position: absolute;
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,21 @@
+.user__card {
+  background-color: white;
+  border-radius: 14px;
+  height: 254px;
+  width: 100%;
+  cursor: pointer;
+
+  .body__card {
+    margin: 20px;
+
+    .avatar {
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+    .name {
+      margin-bottom: 20px;
+    }
+  }
+}

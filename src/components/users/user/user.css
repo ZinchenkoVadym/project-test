@@ -1,0 +1,21 @@
+.user__card {
+  background-color: white;
+  border-radius: 14px;
+  height: 254px;
+  width: 100%;
+  cursor: pointer;
+}
+.user__card .body__card {
+  margin: 20px;
+}
+.user__card .body__card .avatar {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.user__card .body__card .name {
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=user.css.map */
